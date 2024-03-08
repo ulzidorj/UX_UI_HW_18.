@@ -1,0 +1,120 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar-item {
+  display: inline-block;
+  height: 25%;
+  vertical-align: top;
+}
+
+.logo {
+  padding: 1%;
+  height: 25px;
+  scale: 35%;
+  margin: 10px;
+  text-align: center;
+  vertical-align: auto;
+}
+
+nav {
+  width: 100%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  width: 50%;
+  margin-left: 80%;
+  word-spacing: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.heroImg {
+  height: 600px;
+  padding: 0px 120px 25px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 50%;
+  max-height: 1%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+footer nav {
+  width: 73%;
+  padding: 1%;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer ul li {
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+}
+
+.mySkills {
+  margin: 20px 0;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillItem {
+  width: 30%;
+  margin: 0 1%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.skillItem img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skillItem h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skillItem p {
+  font-size: 14px;
+}
+
+.myWork {
+  margin: 20px 0;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+button {
+  background-color: #e3cee6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
